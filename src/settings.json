@@ -1,0 +1,221 @@
+{
+    "customizeUI.stylesheet": {
+        ".decorationsOverviewRuler": "display: none;",
+        ".editor-group-container .title *": "display: none;",
+        ".editor-group-container .title": "pointer-events: none;",
+        ".editor-group-container.empty": "-webkit-app-region: drag;",
+        ".monaco-editor .scroll-decoration": "box-shadow: none;"
+    },
+    "workbench.editor.showTabs": false,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.overviewRulerBorder": false,
+    // "editor.tokenColorCustomizations": {
+    //     "textMateRules": [
+    //         {
+    //             "scope": "emphasis",
+    //             "settings": {
+    //                 "fontStyle": "italic"
+    //             }
+    //         },
+    //         {
+    //             "scope": "strong",
+    //             "settings": {
+    //                 "fontStyle": "bold"
+    //             }
+    //         },
+    //         {
+    //             "scope": "entity.other.attribute-name",
+    //             "settings": {
+    //                 "fontStyle": "italic"
+    //             }
+    //         },
+    //         {
+    //             "scope": "markup.underline",
+    //             "settings": {
+    //                 "fontStyle": "underline"
+    //             }
+    //         },
+    //         {
+    //             "scope": "markup.bold",
+    //             "settings": {
+    //                 "fontStyle": "bold"
+    //             }
+    //         },
+    //         {
+    //             "scope": "markup.heading",
+    //             "settings": {
+    //                 "fontStyle": "bold"
+    //             }
+    //         },
+    //         {
+    //             "scope": "markup.italic",
+    //             "settings": {
+    //                 "fontStyle": "italic"
+    //             }
+    //         },
+    //         {
+    //             "name": "String interpolation",
+    //             "scope": [
+    //                 "punctuation.definition.template-expression.begin",
+    //                 "punctuation.definition.template-expression.end",
+    //                 "punctuation.section.embedded"
+    //             ],
+    //             "settings": {
+    //                 "fontStyle": "italic"
+    //             }
+    //         },
+    //         {
+    //             "name": "this.self",
+    //             "scope": "variable.language",
+    //             "settings": {
+    //                 "fontStyle": "italic",
+    //                 "foreground": "#ff5874"
+    //             }
+    //         },
+    //         {
+    //             "name": "@Decorator",
+    //             "scope": [
+    //                 "meta.decorator punctuation.decorator"
+    //             ],
+    //             "settings": {
+    //                 "fontStyle": "italic"
+    //             }
+    //         },
+    //         {
+    //             "scope": [
+    //                 "punctuation.definition.comment",
+    //                 "comment"
+    //             ],
+    //             "settings": {
+    //                 // "foreground": "#ff5874",
+    //                 "fontStyle": "italic"
+    //             }
+    //         },
+    //         {
+    //             "scope": [
+    //                 //following will be in italic =FlottFlott
+    //                 "entity.name.type.class", //class names
+    //                 "keyword", //import, export, return…
+    //                 "constant", //String, Number, Boolean…, this, super
+    //                 "storage.modifier", //static keyword
+    //                 "storage.type",
+    //                 "storage.type.class.js", //class keyword
+    //             ],
+    //             "settings": {
+    //                 "fontStyle": "italic"
+    //             }
+    //         },
+    //         {
+    //             "scope": [
+    //                 //following will be excluded from italics VSCode has some defaults for italics
+    //                 "invalid",
+    //                 "keyword.operator",
+    //                 "constant.numeric.css",
+    //                 "keyword.other.unit.px.css",
+    //                 "constant.numeric.decimal.js",
+    //                 "constant.numeric.json"
+    //             ],
+    //             "settings": {
+    //                 "fontStyle": ""
+    //             }
+    //         }
+    //     ]
+    // },
+    "customizeUI.titleBar": "inline",
+    "debug.console.fontFamily": "JetBrains Mono",
+    "debug.console.fontSize": 16,
+    "terminal.integrated.fontWeight": 800,
+    "terminal.integrated.tabs.enableAnimation": true,
+    "debug.console.lineHeight": 36,
+    "debug.toolBarLocation": "docked",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": false,
+    "editor.bracketPairColorization.enabled": false,
+    "editor.colorDecorators": false,
+    "editor.cursorStyle": "line-thin",
+    "editor.fontFamily": "JetBrains Mono",
+    //"editor.fontFamily": "Victor Mono",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+    "editor.fontWeight": "500",
+    "editor.formatOnSave": true,
+    "editor.glyphMargin": false,
+    "editor.gotoLocation.multipleDeclarations": "goto",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleReferences": "goto",
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    "editor.guides.indentation": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.lineHeight": 45,
+    "editor.lineNumbers": "off",
+    "editor.matchBrackets": "near",
+    "editor.minimap.enabled": false,
+    "editor.occurrencesHighlight": false,
+    "editor.renderLineHighlight": "none",
+    "editor.renderWhitespace": "none",
+    "editor.scrollbar.horizontalScrollbarSize": 4,
+    "editor.scrollbar.verticalScrollbarSize": 4,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.sideBar.location": "right",
+    "tailwindCSS.emmetCompletions": true,
+    "window.commandCenter": true,
+    "workbench.statusBar.visible": false,
+    "editor.renderControlCharacters": false,
+    "workbench.productIconTheme": "material-product-icons",
+    "material-icon-theme.folders.theme": "specific",
+    "material-icon-theme.files.color": "#42a5f5",
+    "material-icon-theme.saturation": 1,
+    "material-icon-theme.activeIconPack": "vue",
+    "material-icon-theme.folders.color": "#42a5f5",
+    "workbench.layoutControl.enabled": false,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.lineHeight": 1.85,
+    "vscode_custom_css.imports": [
+        "{file:///Users/Cracks/Documents/style.css}"
+    ],
+    "breadcrumbs.filePath": "last",
+    "breadcrumbs.icons": false,
+    "breadcrumbs.showArrays": false,
+    "breadcrumbs.showBooleans": false,
+    "breadcrumbs.showConstants": false,
+    "breadcrumbs.showClasses": false,
+    "breadcrumbs.showEnumMembers": false,
+    "breadcrumbs.showConstructors": false,
+    "breadcrumbs.showFields": false,
+    "breadcrumbs.showEvents": false,
+    "breadcrumbs.showEnums": false,
+    "breadcrumbs.showFiles": false,
+    "breadcrumbs.showInterfaces": false,
+    "breadcrumbs.showKeys": false,
+    "breadcrumbs.showMethods": false,
+    "breadcrumbs.showNull": false,
+    "breadcrumbs.showNumbers": false,
+    "breadcrumbs.showPackages": false,
+    "breadcrumbs.showOperators": false,
+    "breadcrumbs.showProperties": false,
+    "breadcrumbs.showStrings": false,
+    "breadcrumbs.showStructs": false,
+    "breadcrumbs.showTypeParameters": false,
+    "breadcrumbs.showVariables": false,
+    "breadcrumbs.symbolPath": "off",
+    "breadcrumbs.symbolSortOrder": "name",
+    "workbench.editor.tabCloseButton": "off",
+    // "editor.codeActionsOnSave": {
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": "\\.php$",
+                "cmd": "${workspaceFolder}/vendor/bin/pint ${file}"
+            }
+        ]
+    },
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "afterDelay",
+    "files.saveConflictResolution": "overwriteFileOnDisk",
+    "workbench.editor.enablePreview": false,
+    "workbench.colorTheme": "Github Light Theme",
+    //"window.menuBarVisibility": "compact"
+}
